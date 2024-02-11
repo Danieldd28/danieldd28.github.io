@@ -47,10 +47,10 @@ span {
 }
 
 .play-btn {
-	position: relative;
-	border: 0;
-	padding: 0;
-	background: none;
+  position: absolute;
+  left: 50%;
+  bottom: 50%;
+  transform: translate(-50%, 50%);
 }
 
 .play-btn__text {
@@ -374,7 +374,6 @@ span {
 }
 
 .btn-scene {
-	--active: 0;
 	position: relative;
 }
 
